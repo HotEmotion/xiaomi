@@ -2,7 +2,7 @@
 * @Author: Sun Yu
 * @Date:   2018-01-30 11:24:00
 * @Last Modified by:   Sun Yu
-* @Last Modified time: 2018-02-02 17:47:37
+* @Last Modified time: 2018-02-06 21:34:05
 */
 @font-face {
   font-family: 'car';  /* project id 561422 */
@@ -88,23 +88,24 @@
 }
 .search{
 	border: 1px solid #E0E0E0;
-	width: 294px;
+	width: 244px;
 	height: 48px;
 	float: right;
 	margin-top: 25px;
 }
 .search_fangda{
 	width: 49px;
-	height: 100%;
+	height: 50px;
 	float: right;
-	border-left: 1px solid #e0e0e0;
 	line-height: 48px;
 	text-align: center;
-}
-.search_fangda span{
+	margin-top: 25px;
+	font-family: car;
+	background-color: transparent;
 	font-size: 18px;
-	font-family: 'car';
 	color: #616161;
+	border: 1px solid #e0e0e0;
+	border-left: 0;
 }
 #banner{
 	width: 1226px;
@@ -1059,32 +1060,13 @@
 .danpin_item img:hover{
 	cursor: pointer;
 }
-.danpin_item:hover{
+.danpin_item:hover,.jiadian_item:hover,.reping_item:hover,.neirong_item:hover,.video_item:hover,.zhineng_item:hover{
 	box-shadow:0  5px 10px rgba(0, 0, 0, 0.4);
 	cursor: pointer;
-}
-.jiadian_item:hover{
-	box-shadow:0  5px 10px rgba(0, 0, 0, 0.4);
-	cursor: pointer;
-}
-.jiadian_item:hover .jiadian_tan{
-	bottom: 0;
-	opacity: 1;
-}
-.reping_item:hover{
-	box-shadow:0  5px 10px rgba(0, 0, 0, 0.4);
-	cursor: pointer;
-}
-.neirong_item:hover{
-	box-shadow:0  5px 10px rgba(0, 0, 0, 0.4);
-	cursor: pointer;
-}
-.video_item:hover{
-	box-shadow:0  5px 10px rgba(0, 0, 0, 0.4);
-	cursor: pointer;
-}
-.zhineng_item:hover{
-	box-shadow:0  5px 10px rgba(0, 0, 0, 0.4);
-	cursor: pointer;
+	transform: translateY(-2px);
 }
 /* box-shadow:[投影方式] X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色 */
+.jiadian_item:hover .jiadian_tan{
+	opacity: 1;
+	bottom: 0;
+}
