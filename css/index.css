@@ -2,7 +2,7 @@
 * @Author: Sun Yu
 * @Date:   2018-01-30 11:24:00
 * @Last Modified by:   Sun Yu
-* @Last Modified time: 2018-02-06 21:34:05
+* @Last Modified time: 2018-02-07 10:03:47
 */
 @font-face {
   font-family: 'car';  /* project id 561422 */
@@ -1069,4 +1069,7 @@
 .jiadian_item:hover .jiadian_tan{
 	opacity: 1;
 	bottom: 0;
+}
+.danpin_item,.jiadian_item,.reping_item,.neirong_item,.video_item,.zhineng_item{
+	transition: all 0.5s ease-out;	
 }
