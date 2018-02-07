@@ -2,7 +2,7 @@
 * @Author: Sun Yu
 * @Date:   2018-01-30 11:24:00
 * @Last Modified by:   Sun Yu
-* @Last Modified time: 2018-02-07 10:03:47
+* @Last Modified time: 2018-02-07 13:11:24
 */
 @font-face {
   font-family: 'car';  /* project id 561422 */
@@ -447,6 +447,7 @@
 .jiadian_item3{
 	margin-left: 0;
 	padding-top: 0;
+	height: 300px;
 }
 .jiadian_item3 img{
 	width: 234px;
